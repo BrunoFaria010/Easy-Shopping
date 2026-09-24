@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Petrona:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>projeto7dias</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img src="./imagem/logo-cabeca.png" alt="cabeca-mario">
+        <a href="">Home</a>
+        <a href="">Fale Comigo</a>
+        <a href="./servico.html">Nossos Serviços</a>
+    </div>
+    <div class="caixa-principal">
+
+        <div class="div1">
+            <img src="./imagem/logo.png" alt="logo-mario" / class="logo-mario">
+
+            <h1 class="primeiro-paragrafo">
+                🔧 Encanadores Mario & Luigi 
+                
+                Resolvendo Seus Problemas Hidráulicos com Estilo 🔧
+            </h1>
+            <br>    
+            <p class="texto-principal">
+                Você já se deparou com uma situação de emergência com encanemento? Vazamento inesperado, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salver seu
+                dia!
+                Apresentamos a vocÊ os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+            <button onclick=" mostraform()">
+                ENTRE EM CONTATO
+            </button>
+
+        </div>
+        <div class="div2">
+
+            <img src="./imagem/MARIO E LUIGI.png" alt="Mario-luigi" class="Mario-luigi" />
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./video.mp4" autoplay loop muted>
+        </video>
+        <div class="mascara-video">
+
+        </div>
+
+    </div>
+
+    <div class="caixa-link-whatsapp">
+        <a href="https://wa.me/5511983020149" class="linkwhatsapp">
+            <img src="./imagem/whatsapp.png" alt="" />
+        </a>
+    </div>
+    <form 
+    class="formulario"
+      action="https://formcarry.com/s/2HEvYVpyFQz"
+  method="POST"
+  enctype="multipart/form-data"
+    >
+        <input  placeholder="Nome" type="text" name="nome"/>
+        <input placeholder="Email" type="email" name=" email"/>
+        <textarea placeholder="Digite seu Problema" name="problema"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+
+</body>
+<script src="script.js"></script>
+</html>

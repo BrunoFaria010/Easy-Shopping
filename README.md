@@ -3,3 +3,4 @@
 
 <img src="https://github.com/BrunoFaria010/Easy-Shopping/blob/main/Projeto%20Easy%20Shopping%20Via%20Mobile/Easy%20Shopping.png?raw=true"/>
 <img src="https://raw.githubusercontent.com/BrunoFaria010/Easy-Shopping/c52f11ae7cb444c41083713c8738a188c36300c2/Projeto%20Easy%20Shopping%20Via%20Mobile/Easy%20Shopping%20PC.png"/>
+<img src="https://github.com/BrunoFaria010/Easy-Shopping/blob/1da86fba95eff23a519825823e553717909409d1/Projeto%20Easy%20Shopping%20Via%20Mobile/Easy%20Shopping%20Celular.png?raw=true"/>
